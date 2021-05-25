@@ -1,0 +1,130 @@
+.jumbotron-hero
+{
+		height: 500px ;
+		background-image: url("index_banner.jpg") ;
+		background-position: center ;
+		background-repeat: no-repeat ;
+		background-size: cover ;
+}
+
+.jumbotron-fluid
+{
+  height: 500px ;
+	background-image: url("banner_photo.jpg") ;
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+}
+
+.containerMain
+{
+	color: white ;
+	text-align: center ;
+	margin: 60px ;
+}
+
+.form
+{
+  display: flex ;
+  align-items: center ;
+  text-align: center ;
+  width: 25% ;
+}
+
+html
+{
+  height: 100% ;
+  width: 100% ;
+}
+
+body
+{
+	font-family: 'Barlow', 'KoHo', sans-serif ;
+  font-weight: normal ;
+  font-style: normal ;
+  font-size: 16 ;
+}
+
+h1, h2
+{
+  font-family: 'KoHo', sans-serif ;
+  color: #6846EC;
+}
+
+p
+{
+  font-family: 'Barlow' ;
+  color: #444444;
+}
+
+li:hover
+{
+  color: #6846EC;
+}
+
+.form-signin
+{
+  margin: auto ;
+}
+
+.btn 
+{
+  background-color: #FFFFFF ;
+  border: #6846EC ;
+  border-style: solid ;
+  border-width: 1px ;
+  color: #6846ec ;
+  padding: 16px 32px ;
+  text-align: center ;
+  text-decoration: none ;
+  display: inline-block ;
+  font-size: 16px ;
+  margin: 15px 10px ;
+  transition-duration: 0.4s ;
+  cursor: pointer ;
+  border-radius: 3em ;
+}
+
+.btn:hover
+{
+  background-color: #6846EC;
+  color: white;
+}
+
+.btn_connexion
+{
+  background-color: #FFFFFF ;
+  border: #6846EC ;
+  border-style: solid ;
+  border-width: 1px ;
+  color: #6846ec ;
+  padding: 16px 32px ;
+  text-align: center ;
+  text-decoration: none ;
+  display: inline-block ;
+  font-size: 16px ;
+  margin: 15px 10px ;
+  transition-duration: 0.4s ;
+  cursor: pointer ;
+  border-radius: 3em ;
+}
+
+.btn_connexion:hover
+{
+  background-color: #6846EC;
+  color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 5px ;
+  background-position: cover ;
+  background-color: #bcbcbc;
+  color: #fff;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top:20px;
+  height:50px;
+  }
